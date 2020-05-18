@@ -1,6 +1,8 @@
 name: Upload Jar to Maven
 
 on:
+  repository_dispatch:
+    types: [maven]
   push:
     tags: 
       - v*

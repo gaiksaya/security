@@ -8,7 +8,7 @@ on:
       - v*
 jobs:
   upload-security-jar:
-    runs-on: [ubuntu-16.04]
+    runs-on: ubuntu-latest
 
     name: Upload Jar to Maven
     steps:

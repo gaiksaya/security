@@ -9,8 +9,6 @@ on:
 jobs:
   upload-security-jar:
     runs-on: [ubuntu-16.04]
-    container:
-      image: opendistroforelasticsearch/security-maven:v1
 
     name: Upload Jar to Maven
     steps:
